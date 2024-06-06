@@ -5,11 +5,13 @@ local Tab1 = Win:Tab("General",14477284625)
 
 local Page1 = Tab1:CraftPage(1)
 Page1:Seperator("JOB ID")
+local Page2 = Tab1:CraftPage(1)
+Page2:Seperator("JOIN JOB ID")
 
 Page1:Textbox('Job ID',nil, function(jobid)
     _G.Job = jobid
 end)
 
-Page1:Button('Join Job ID', function(joins)
+Page2:Button('Join Job ID', function(joins)
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
 end)
