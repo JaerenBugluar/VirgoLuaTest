@@ -12,6 +12,6 @@ Page1:Textbox('Job ID',nil,function(jobid)
     _G.Job = jobid
 end)
 
-Page2:Toggle("Join Job ID",function()
+Page2:Toggle("Join Job ID",false,function()
     game:GetService("TeleportService"):TeleportToPlaceInstance(game.placeId,_G.Job, game.Players.LocalPlayer)
 end)
