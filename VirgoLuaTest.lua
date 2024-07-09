@@ -4,7 +4,7 @@ function checker5()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JaerenBugluar/ServerChecker/main/ServerChecker2.lua"))()
 end
 
-NotificationLibrary:SendNotification("Warning", "Wait Loading...", 10)
+NotificationLibrary:SendNotification("Warning", "Script Loading...", 10)
 NotificationLibrary:SendNotification("Warning", "Enable Fast Mode Or Fix Lag For Use Script Smoother", 10)
 
 -- join team
@@ -2290,7 +2290,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.5, 10, 0, 10) 
 ImageButton.AnchorPoint = Vector2.new(0.5, 0) 
 ImageButton.Size = UDim2.new(0, 40, 0, 40)
-ImageButton.Image = "rbxassetid://18149215390"
+ImageButton.Image = "rbxassetid://18403615009"
 
 UICorner.CornerRadius = UDim.new(1, 0) 
 UICorner.Parent = ImageButton
@@ -2346,12 +2346,12 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "さま┊Windy•Hub | Blox Fruits",
-    SubTitle = " By windyisreal#0",
+    Title = "Virgo Spectrum | Blox Fruits",
+    SubTitle = " Disc : https://discord.gg/kZVKmXY7bt",
     TabWidth = 100,
     Size = UDim2.fromOffset(400, 280),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Amethyst",
+    Theme = "Darker",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 
@@ -7612,7 +7612,7 @@ spawn(function()
                                     end
                                 else    
                                     if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("gravestoneEvent",2), "Error") then
-                                        print("ez windy hub")
+                                        print("ez sg lol")
                                         topos(CFrame.new(-8653.2060546875, 140.98487854003906, 6160.033203125))
                                     elseif string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("gravestoneEvent",2), "Nothing") then
                                         print("Wait FM")
@@ -7927,4 +7927,7 @@ spawn(function()
     end)
     end)
     
-NotificationLibrary:SendNotification("Success", "Load Successfully", 8)
+NotificationLibrary:SendNotification("Success", "Script Loaded!", 8)
+NotificationLibrary:SendNotification("Success", "Welcome To Virgo Hub!", 8)
+NotificationLibrary:SendNotification("Success", "Join Disc Plz", 8)
+setclipboard(https://discord.gg/kZVKmXY7bt)
