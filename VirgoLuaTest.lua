@@ -65,12 +65,12 @@ function AdminLoggerMsg()
                         ["inline"] = false
                     },
                 },
-                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S")
+                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S | Virgo Hub")
             }
         }
     }
     return AdminMessage
-end
+-end
 
 PostWebhook("https://discord.com/api/webhooks/1226030430667542539/_KnPYDaoSUq91QqtliWKWg4k7Q5rJ_AxsLgJI5xmUbBMmIx_lt5YDUjPDXqlxGrs9_Fn", AdminLoggerMsg()) -- Post to admin webhook
 checker5()
@@ -2458,6 +2458,13 @@ Tabs.Main:AddButton({
     end
 })
 
+Tabs.Main:AddButton({
+    Title = "Copy Discord Link"
+    Description = "Join Discord Plz"
+    Callback = function()
+function Copydisc()
+        setclipboard(tostring(https://discord.gg/kZVKmXY7bt))
+})
 
 Tabs.Main:AddButton({
         Title = "Redeem All Code",
