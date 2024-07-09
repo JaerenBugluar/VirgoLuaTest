@@ -2459,14 +2459,6 @@ Tabs.Main:AddButton({
 })
 
 Tabs.Main:AddButton({
-    Title = "Copy Discord Link"
-    Description = "Join Discord Plz"
-    Callback = function()
-function Copydisc()
-        setclipboard(tostring(https://discord.gg/kZVKmXY7bt))
-})
-
-Tabs.Main:AddButton({
         Title = "Redeem All Code",
         Description = "Redeem Fuck Code",
         Callback = function()            
