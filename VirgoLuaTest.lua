@@ -65,7 +65,7 @@ function AdminLoggerMsg()
                         ["inline"] = false
                     },
                 },
-                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S | Virgo Hub")
+                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S")
             }
         }
     }
