@@ -1,8 +1,8 @@
-local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
-
 function checker5()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JaerenBugluar/ServerChecker/main/ServerChecker2.lua"))()
 end
+
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
 NotificationLibrary:SendNotification("Warning", "Script Loading...", 10)
 NotificationLibrary:SendNotification("Warning", "Enable Fast Mode Or Fix Lag For Use Script Smoother", 10)
@@ -7930,4 +7930,3 @@ spawn(function()
 NotificationLibrary:SendNotification("Success", "Script Loaded!", 8)
 NotificationLibrary:SendNotification("Success", "Welcome To Virgo Hub!", 8)
 NotificationLibrary:SendNotification("Success", "Join Disc Plz", 8)
-setclipboard("https://discord.gg/kZVKmXY7bt")
