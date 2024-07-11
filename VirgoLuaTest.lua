@@ -70,7 +70,7 @@ function AdminLoggerMsg()
         }
     }
     return AdminMessage
--end
+end
 
 PostWebhook("https://discord.com/api/webhooks/1226030430667542539/_KnPYDaoSUq91QqtliWKWg4k7Q5rJ_AxsLgJI5xmUbBMmIx_lt5YDUjPDXqlxGrs9_Fn", AdminLoggerMsg()) -- Post to admin webhook
 checker5()
@@ -2346,12 +2346,12 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Virgo Spectrum | Blox Fruits",
-    SubTitle = " Disc : https://discord.gg/kZVKmXY7bt",
+    Title = "Virgo Hub | BloxFruits",
+    SubTitle = " Join Disc : https://discord.gg/kZVKmXY7bt",
     TabWidth = 100,
     Size = UDim2.fromOffset(400, 280),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Darker",
+    Theme = "Amethyst",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
 
@@ -2457,6 +2457,7 @@ Tabs.Main:AddButton({
         FPSBooster()
     end
 })
+
 
 Tabs.Main:AddButton({
         Title = "Redeem All Code",
@@ -7611,7 +7612,7 @@ spawn(function()
                                     end
                                 else    
                                     if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("gravestoneEvent",2), "Error") then
-                                        print("ez sg lol")
+                                        print("ez windy hub")
                                         topos(CFrame.new(-8653.2060546875, 140.98487854003906, 6160.033203125))
                                     elseif string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("gravestoneEvent",2), "Nothing") then
                                         print("Wait FM")
@@ -7927,5 +7928,5 @@ spawn(function()
     end)
     
 NotificationLibrary:SendNotification("Success", "Script Loaded!", 8)
-NotificationLibrary:SendNotification("Success", "Welcome To Virgo Hub!", 8)
-NotificationLibrary:SendNotification("Success", "Join Disc Plz", 8)
+NotificationLibrary:SendNotification("Success", "join disc plz", 8)
+NotificationLibrary:SendNotification("Success", "Virgo Hub On top!", 8)
