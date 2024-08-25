@@ -1,5 +1,5 @@
 
-getgenv().script_key = ""
+getgenv().script_key = "gg123"
 getgenv().Theme = {
     LightBlue = {
         BackgroundColor = Color3.fromRGB(249, 249, 251),
